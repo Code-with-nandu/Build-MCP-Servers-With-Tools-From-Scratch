@@ -7,4 +7,13 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
+# Ignore virtual environments
+.venv/
+venv/
+
+# Ignore environment variable files
+.env
+.env.*
+
+# Optionally ignore uv's virtual environment folder
+.uv/
